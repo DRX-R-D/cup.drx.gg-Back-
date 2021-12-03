@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRX SCHOOL CUP</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <links
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./src/index.js"></script>
+  </head>
+  <body>
+    <!-- START PAGE -->
+    <section class="startpage">
+      <header>
+        <a href="#" class="logo"
+          >DRX<br />
+          SCHOOL CUP</a
+        >
+      </header>
+      <div class="circle">
+        <img src="img/circle.png" alt="" class="circle-img" />
+        <div class="subtitle">ENJOY YOUR CHALLENGE</div>
+        <div class="maintitle">DRX<br />SCHOOL CUP</div>
+        <div class="subtext">
+          DRX SCHOOL CUP에 참가하여 자신의 재능을 마음껏 보여주세요!
+        </div>
+        <button class="enjoy" onclick="open_onClick()">대회 참가하기</button>
+
+        <!-- ICONS -->
+        <img src="img/highlight.png" alt="" class="hightlighticon" />
+        <img src="img/new.png" alt="" class="newicon" />
+        <img src="img/star.png" alt="" class="staricon" />
+        <img src="img/underline.png" alt="" class="underlineicon" />
+        <img src="img/arrow.png" alt="" class="arrowicon" />
+      </div>
+    </section>
+
+    <!-- COUNT PAGE -->
+    <section class="countpage">
+      <div class="pagetitle">접수 마감일</div>
+      <div class="count">
+        <div class="day">
+          <p>D - 10</p>
+        </div>
+        <div class="time">
+          <p>21시간 57분 11초</p>
+        </div>
+      </div>
+      <div class="subtext">접수 마감일이 얼마 남지 않았어요 서두르세요!!</div>
+
+      <!-- ICONS -->
+      <img src="img/highlight2.png" alt="" class="highlight2icon" />
+      <img src="img/smile.png" alt="" class="smileicon" />
+    </section>
+
+    <!-- PRICE PAGE -->
+    <section class="pricepage">
+      <div class="pagetitle">대회 총 상금</div>
+      <div class="price">1,000,000 원</div>
+
+      <!-- ICONS -->
+      <img src="img/star2.png" alt="" class="star2icon" />
+      <img src="img/star3.png" alt="" class="star3icon" />
+      <img src="img/underline2.png" alt="" class="underline2icon" />
+    </section>
+
+    <!-- BENEFIT PAGE -->
+    <section class="benefitpage">
+      <div class="pagetitle">DRX SCHOOL CUP에 참가하면?</div>
+      <div class="benefits">
+        <div id="benefit1" class="benefit">
+          <div class="number">1</div>
+          <div class="description">
+            참가시 추첨을 통해<br />
+            <span>DRX 굿즈 세트 제공</span>
+          </div>
+        </div>
+        <div id="benefit2" class="benefit">
+          <div class="number">2</div>
+          <div class="description">
+            승,패 등수 상관없이<br />
+            기량좋은 선수 대상으로<br />
+            <span>아카데미 또는 3군 테스트 기회 부여</span>
+          </div>
+        </div>
+        <div id="benefit3" class="benefit">
+          <div class="number">3</div>
+          <div class="description">
+            결승 진출 시<br />
+            각 팀
+            <span>DRX 코치진과 함께<br />결승전 대비 스크림 이벤트 진행</span>
+          </div>
+        </div>
+        <div id="benefit4" class="benefit">
+          <div class="number">4</div>
+          <div class="description">
+            우승 시<br />
+            DRX 코치진과 함께<br />
+            <span
+              >4군 or 3군 or 2군과 오프라인 <br />
+              스크림 이벤트 진행</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- ICONS -->
+      <img src="img/highlight3.png" alt="" class="highlight3icon" />
+      <img src="img/highlight4.png" alt="" class="highlight4icon" />
+      <img src="img/line.png" alt="" class="lineicon" />
+    </section>
+
+    <!-- CONTEST PAGE -->
+    <section class="contestpage">
+      <div class="pagetitle">대회 소개</div>
+      <div class="desgroup1">
+        <!-- 모집 팀 -->
+        <div id="contest1" class="contest-description">
+          <div class="title">
+            모집 팀
+            <div class="line"></div>
+          </div>
+          <ul>
+            <li>선착순 8팀</li>
+            <li>티어제한: 다이아 이상 (솔랭 현재 티어)</li>
+            <li>대회 참가할 때 쓰는 본인 명의 계정 기준 플레티넘 이상</li>
+            <li>팀 당 예비선수 1명까지 신청 가능</li>
+          </ul>
+        </div>
+
+        <!-- 참가 자격 -->
+        <div id="contest2" class="contest-description">
+          <div class="title">
+            참가 자격
+            <div class="line"></div>
+          </div>
+          <ul>
+            <li>만 12세 이상 ~ 만 18세 이하</li>
+            <li>
+              본인 명의 30레벨 이상 계정을 보유하고 있는자<br />
+              (추후 본인 계정 확인 절차가 진행될 예정입니다)
+            </li>
+            <li>
+              접수 마감 전까지 DRX SCHOOL CUP 디스코드 서버에<br />
+              가입 및 등업이 완료된 자 (디스코드 주소)
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="desgroup2">
+        <!-- 자격 제한 -->
+        <div id="contest3" class="contest-description">
+          <div class="title">
+            자격 제한
+            <div class="line"></div>
+          </div>
+          <ul>
+            <li>LCK 혹은 LCK CL 리그 출전 경험이 있는자</li>
+            <li>
+              종목사 자체 징계에 의해 대회 출전이 금지된 자<br />
+              (대리 게임, 계정 공유, 어뷰징, 부정행위 프로그램 사용 등)
+            </li>
+          </ul>
+        </div>
+
+        <!-- 대회 상금 -->
+        <div id="contest4" class="contest-description">
+          <div class="title">
+            대회 상금
+            <div class="line"></div>
+          </div>
+          <ul>
+            <li>1등 60만원 / 2등 30만원 / 3등 10만원</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ICONS -->
+      <img src="img/underline3.png" alt="" class="underline3icon" />
+    </section>
+
+    <!-- ENJOY PAGE -->
+    <section class="enjoypage">
+      <div class="subtitle">ENJOY YOUR CHALLENGE</div>
+      <div class="subtext">
+        DRX SCHOOL CUP에 참가하여 자신의 재능을 마음껏 보여주세요!
+      </div>
+      <button class="enjoy" onclick="open_onClick()">대회 참가하기</button>
+
+      <!-- ICONS -->
+      <img src="img/highlight5.png" alt="" class="highlight5icon" />
+      <img src="img/highlight6.png" alt="" class="highlight6icon" />
+      <img src="img/arrow2.png" alt="" class="arrow2icon" />
+      <img src="img/arrow3.png" alt="" class="arrow3icon" />
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="copyright">© 2021 COPYRIGHT (c) DRX ALL RIGHTS RESERVED.</div>
+      <div class="information">개인정보 처리방침</div>
+    </footer>
+
+    <!-- MODAL -->
+    <link rel="stylesheet" href="style/modal.css" />
+    <div class="modal">
+      <div class="modalbg" onclick="close_onClick()"></div>
+      <div class="modalwrap">
+        <img src="img/logo.png" alt="" class="logo" />
+
+        <div class="modal-body">
+          <!-- 팀 등록 -->
+          <div class="title">팀 등록</div>
+          <div class="team">
+            <div id="teamname" class="input">
+              <p>팀명</p>
+              <input type="text" placeholder="팀명을 입력하세요." />
+            </div>
+            <div id="leadername" class="input">
+              <p>팀장 이름</p>
+              <input type="text" placeholder="팀장 이름을 입력하세요." />
+            </div>
+            <div id="phonenumber" class="input">
+              <p>연락처</p>
+              <input type="text" placeholder="연락처를 입력하세요." />
+            </div>
+          </div>
+          <div id="searchschool" class="input">
+            <p>학교 찾기</p>
+            <div class="searchbar">
+              <input type="search" placeholder="학교명을 검색하세요." />
+              <button class="searchbtn">
+                <img src="img/searchicon.png" alt="" class="searchicon" />
+              </button>
+            </div>
+          </div>
+
+          <!-- 선수 등록 -->
+          <div id="addmember" class="title">
+            선수 등록
+            <button class="addbtn">+ 선수 추가하기</button>
+            <div class="member1">
+              <div id="membername" class="input">
+                <p>선수 이름</p>
+                <input type="text" placeholder="선수 이름을 입력하세요." />
+              </div>
+              <div id="birth" class="input">
+                <p>생년월일</p>
+                <input class="date" type="date" />
+              </div>
+              <div id="phonenumber" class="input">
+                <p>연락처</p>
+                <input type="text" placeholder="연락처를 입력하세요." />
+              </div>
+            </div>
+            <div class="member2">
+              <div id="lolname" class="input">
+                <p>소환사명</p>
+                <input
+                  class="lolnameinput"
+                  type="text"
+                  placeholder="소환사명을 입력하세요."
+                />
+                <button class="check">인증</button>
+              </div>
+              <div id="selecttier" class="input">
+                <p>티어</p>
+                <div class="select-wrapper">
+                  <select name="티어를 선택하세요." id="Tier">
+                    <option value="diamond">다이아몬드</option>
+                    <option value="master">마스터</option>
+                    <option value="grandmaster">그랜드마스터</option>
+                    <option value="challenger">챌린저</option>
+                  </select>
+                </div>
+              </div>
+              <div class="position">
+                <p>포지션</p>
+                <p class="description">포지션을 선택해주세요.</p>
+                <div class="selectposition">
+                  <img src="img/bottom.png" alt="" class="bottom" />
+                  <img src="img/mid.png" alt="" class="mid" />
+                  <img src="img/top.png" alt="" class="top" />
+                  <img src="img/jungle.png" alt="" class="jungle" />
+                  <img src="img/support.png" alt="" class="support" />
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+          </div>
+
+          <!-- 개인정보 수집 및 이용 동의  -->
+          <div class="privacy">
+            <p>개인정보 수집 및 이용 동의</p>
+            <div class="privacy-text"></div>
+            <div class="check-group">
+              <div class="privacy-check">
+                <p>개인정보 수집 및 이용동의</p>
+                <input type="checkbox" class="p-check" id="p-check1" />
+              </div>
+              <div class="privacy-check">
+                <p>부모님 동의여부 (만 18 세 이하)</p>
+                <input type="checkbox" class="p-check" id="p-check2" />
+              </div>
+            </div>
+            <div class="button-group">
+              <button class="close" onclick="close_onClick()">닫기</button>
+              <button class="enjoybtn">참가하기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+@import url(set.css);
+
+.modalbg {
+  display: none;
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 500vh;
+  z-index: 1;
+}
+
+.modalwrap {
+  overflow-y: initial !important;
+  position: absolute;
+  display: none;
+  top: 80vh;
+  left: 50vw;
+  width: 1187px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  background-color: var(--default-white);
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.modalwrap > .logo {
+  margin-top: 66px;
+  padding: 0;
+  width: 136px;
+  height: 65px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalwrap > .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 58px;
+  margin-right: 900px;
+}
+
+.privacy > p,
+.position > p,
+.input > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--default-grey);
+  margin: 0px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 270px;
+  height: 50px;
+  background-color: var(--default-white);
+  border: 0.8px solid #bcbcbc;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-right: 50px;
+}
+
+#phonenumber > input {
+  margin: 0;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--input-grey);
+}
+
+#searchschool {
+  margin-right: 75px;
+}
+
+.searchbar {
+  margin-right: 280px;
+  position: relative;
+}
+
+.searchbar > input {
+  width: 630px;
+  height: 50px;
+  margin: 0;
+}
+
+.searchbtn {
+  position: absolute;
+  margin-left: 15px;
+  width: 71px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--default-blue);
+  border: none;
+}
+
+.searchicon {
+  width: 22px;
+  height: 22px;
+}
+
+#addmember {
+  margin-right: 0px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.addbtn {
+  position: absolute;
+  margin-left: 770px;
+  width: 120px;
+  height: 53px;
+  border: none;
+  background-color: var(--default-white);
+  color: var(--default-blue);
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+.member1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 250px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--input-grey);
+  padding-right: 20px;
+}
+
+.member2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lolnameinput {
+  position: relative;
+  width: 193px;
+  margin: 0;
+}
+
+#lolname {
+  margin-right: 70px;
+}
+
+.check {
+  position: absolute;
+  margin-left: 6px;
+  width: 71px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--default-blue);
+  border: none;
+  color: var(--default-white);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.select-wrapper {
+  width: 290px;
+  height: 50px;
+  border: 0.8px solid #bcbcbc;
+  border-radius: 10px;
+}
+
+select {
+  width: 270px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 0;
+  color: var(--input-grey);
+}
+select:focus {
+  outline: none;
+}
+
+.positon {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.position > .description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #bcbcbc;
+  margin-top: 9px;
+  justify-self: flex-start;
+  text-align: start;
+}
+
+.selectposition {
+  display: flex;
+}
+
+.selectposition > img {
+  width: 46px;
+  height: 51px;
+  margin-right: 12px;
+}
+
+.divider {
+  width: 970px;
+  border: 1px solid #c1c1c1;
+  margin-top: 80px;
+  margin-bottom: 58px;
+}
+
+.privacy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.privacy > p {
+  margin: 0;
+}
+
+.privacy-text {
+  margin-top: 14px;
+  width: 536px;
+  height: 188px;
+  background-color: #f9f9f9;
+}
+
+.check-group {
+  display: flex;
+}
+
+.privacy-check {
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+}
+
+.privacy-check > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--default-grey);
+  margin: 0;
+}
+
+.p-check {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-right: 0;
+}
+
+#p-check1 {
+  margin-right: 50px;
+}
+
+.button-group {
+  display: flex;
+  margin-top: 41px;
+  padding-bottom: 100px;
+}
+
+.button-group > button {
+  width: 250px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.close {
+  background-color: var(--default-white);
+  color: var(--default-blue);
+  border: 1px solid #5a8dff;
+}
+
+.enjoybtn {
+  background-color: var(--default-blue);
+  color: var(--default-white);
+  border: none;
+  margin-left: 39px;
+}

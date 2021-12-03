@@ -1,0 +1,77 @@
+:root {
+  --default-white: #fcfdff;
+  --default-blue: #5a8dff;
+  --lighten-blue: #eff3ff;
+  --default-grey: #555555;
+  --input-grey: #bcbcbc;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.logo,
+.subtitle,
+.maintitle,
+.copyright {
+  font-family: "Archivo";
+}
+
+li,
+.subtext,
+.pagetitle,
+.enjoy .day,
+.time,
+.pagetitle,
+.price,
+.number,
+.description,
+.title,
+.information {
+  font-family: "Noto Sans KR";
+}
+
+.circle,
+.countpage,
+.pricepage,
+.benefitpage,
+.contestpage,
+.enjoypage {
+  position: relative;
+}
+
+.startpage,
+.circle,
+.countpage,
+.pricepage,
+.benefitpage,
+.benefit,
+.benefits,
+.contestpage,
+.desgroup1,
+.desgroup2,
+.enjoypage,
+.footer {
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+}
+
+.subtitle {
+  font-size: 22px;
+}
+
+.subtext {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
