@@ -186,6 +186,10 @@ select:focus {
   outline: none;
 }
 
+#tier option {
+  width: 290px;
+}
+
 .positon {
   display: flex;
   flex-direction: column;

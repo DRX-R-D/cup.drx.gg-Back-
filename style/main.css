@@ -496,3 +496,16 @@ footer {
   font-size: 16px;
   margin-left: 1132px;
 }
+
+/* 반응형 */
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 390px) {
+}
