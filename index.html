@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DRX SCHOOL CUP</title>
     <link rel="stylesheet" href="style/main.css" />
-    <links
+    <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -16,17 +16,17 @@
     <!-- START PAGE -->
     <section class="startpage">
       <header>
-        <a href="#" class="logo"
-          >DRX<br />
-          SCHOOL CUP</a
-        >
+        <a href="#" class="logo">
+          DRX<br />
+          SCHOOL CUP
+        </a>
       </header>
       <div class="circle">
-        <img src="img/circle.png" alt="" class="circle-img" />
         <div class="subtitle">ENJOY YOUR CHALLENGE</div>
         <div class="maintitle">DRX<br />SCHOOL CUP</div>
         <div class="subtext">
-          DRX SCHOOL CUP에 참가하여 자신의 재능을 마음껏 보여주세요!
+          DRX SCHOOL CUP에 참가하여 <br />
+          자신의 재능을 마음껏 보여주세요!
         </div>
         <button class="enjoy" onclick="open_onClick()">대회 참가하기</button>
 
@@ -116,10 +116,13 @@
 
     <!-- CONTEST PAGE -->
     <section class="contestpage">
-      <div class="pagetitle">대회 소개</div>
-      <div class="desgroup1">
+      <div class="pagetitle">
+        대회 소개
+        <img src="img/underline3.png" alt="" class="underline3icon" />
+      </div>
+      <div class="desgroup">
         <!-- 모집 팀 -->
-        <div id="contest1" class="contest-description">
+        <div class="contest-description">
           <div class="title">
             모집 팀
             <div class="line"></div>
@@ -133,7 +136,7 @@
         </div>
 
         <!-- 참가 자격 -->
-        <div id="contest2" class="contest-description">
+        <div class="contest-description">
           <div class="title">
             참가 자격
             <div class="line"></div>
@@ -150,11 +153,9 @@
             </li>
           </ul>
         </div>
-      </div>
 
-      <div class="desgroup2">
         <!-- 자격 제한 -->
-        <div id="contest3" class="contest-description">
+        <div class="contest-description">
           <div class="title">
             자격 제한
             <div class="line"></div>
@@ -169,7 +170,7 @@
         </div>
 
         <!-- 대회 상금 -->
-        <div id="contest4" class="contest-description">
+        <div class="contest-description">
           <div class="title">
             대회 상금
             <div class="line"></div>
@@ -179,39 +180,38 @@
           </ul>
         </div>
       </div>
-
-      <!-- ICONS -->
-      <img src="img/underline3.png" alt="" class="underline3icon" />
     </section>
 
     <!-- ENJOY PAGE -->
     <section class="enjoypage">
-      <div class="subtitle">ENJOY YOUR CHALLENGE</div>
-      <div class="subtext">
-        DRX SCHOOL CUP에 참가하여 자신의 재능을 마음껏 보여주세요!
-      </div>
-      <button class="enjoy" onclick="open_onClick()">대회 참가하기</button>
+      <div class="inner">
+        <div class="subtitle">ENJOY YOUR CHALLENGE</div>
+        <div class="subtext">
+          DRX SCHOOL CUP에 참가하여 자신의 재능을 마음껏 보여주세요!
+        </div>
+        <button class="enjoy" onclick="open_onClick()">대회 참가하기</button>
 
-      <!-- ICONS -->
-      <img src="img/highlight5.png" alt="" class="highlight5icon" />
-      <img src="img/highlight6.png" alt="" class="highlight6icon" />
-      <img src="img/arrow2.png" alt="" class="arrow2icon" />
-      <img src="img/arrow3.png" alt="" class="arrow3icon" />
+        <!-- ICONS -->
+        <img src="img/highlight5.png" alt="" class="highlight5icon" />
+        <img src="img/highlight6.png" alt="" class="highlight6icon" />
+        <img src="img/arrow2.png" alt="" class="arrow2icon" />
+        <img src="img/arrow3.png" alt="" class="arrow3icon" />
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-      <div class="copyright">© 2021 COPYRIGHT (c) DRX ALL RIGHTS RESERVED.</div>
-      <div class="information">개인정보 처리방침</div>
+      <div class="inner">
+        <div class="copyright">© 2021 COPYRIGHT (c) DRX ALL RIGHTS RESERVED.</div>
+        <div class="information">개인정보 처리방침</div>
+      </div>
     </footer>
 
     <!-- MODAL -->
     <link rel="stylesheet" href="style/modal.css" />
     <div class="modal">
-      <div class="modalbg" onclick="close_onClick()"></div>
       <div class="modalwrap">
         <img src="img/logo.png" alt="" class="logo" />
-
         <div class="modal-body">
           <!-- 팀 등록 -->
           <div class="title">팀 등록</div>

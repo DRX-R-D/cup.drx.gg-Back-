@@ -44,8 +44,6 @@ li,
 .enjoypage {
   position: relative;
 }
-
-.startpage,
 .circle,
 .countpage,
 .pricepage,
@@ -55,7 +53,6 @@ li,
 .contestpage,
 .desgroup1,
 .desgroup2,
-.enjoypage,
 .footer {
   display: flex;
 }
@@ -74,4 +71,10 @@ button {
 
 a {
   text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
